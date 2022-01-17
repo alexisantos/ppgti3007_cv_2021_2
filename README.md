@@ -1,6 +1,4 @@
-# ppgti3007_cv_2021_2
-
-## Programa da disciplina PPgTI3007 - Visão Computacional - 
+## Programa da disciplina PPgTI3007 - Visão Computacional
 Programa de Pós-graduação em Tecnologia da Informação do Instituto Metrópole Digital da Universidade Federal do Rio Grande do Norte
 
 **Semestre 2021.2**
@@ -117,4 +115,4 @@ A disciplina contará somente com uma avaliação: um projeto final prático, qu
 ## Referências
 Richard Szeliski. Computer Vision: Algorithms and Applications. 2nd Edition. 2021. [http://szeliski.org/Book/](http://szeliski.org/Book/) 
 
-Adrian Rosebrock. PyImageSearch Gurus Course. Disponível em: [https://customers.pyimagesearch.com/](https://customers.pyimagesearch.com/)**
+Adrian Rosebrock. PyImageSearch Gurus Course. Disponível em: [https://customers.pyimagesearch.com/](https://customers.pyimagesearch.com/)
