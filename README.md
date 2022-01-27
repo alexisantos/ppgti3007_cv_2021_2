@@ -1,4 +1,4 @@
-## Programa da disciplina PPgTI3007 - Visão Computacional
+## PPgTI3007 - Visão Computacional
 Programa de Pós-graduação em Tecnologia da Informação do Instituto Metrópole Digital da Universidade Federal do Rio Grande do Norte
 
 **Semestre 2021.2**
@@ -42,7 +42,7 @@ Semana 04 - Aprendizado profundo para visão computacional
 
 **Detalhamento**:
 
-### Semana 01 
+### [Semana 01](https://github.com/danielsabino/ppgti3007_cv_2021_2/tree/main/semana01)
 
 * 04/02 (síncrono):
 	- Apresentação da disciplina
@@ -51,7 +51,6 @@ Semana 04 - Aprendizado profundo para visão computacional
 	- Representação de imagem
 	- Espaço RGB
 	- Anotação de imagens
-	- Desenhar em imagens
 	- Transformações básicas: rotação, translação e redimensionamento
 
 * 05/02 (assíncrono):
