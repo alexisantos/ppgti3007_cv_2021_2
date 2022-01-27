@@ -51,15 +51,15 @@ Semana 04 - Aprendizado profundo para visão computacional
 	- Representação de imagem
 	- Espaço RGB
 	- Anotação de imagens
-	- Transformações básicas: rotação, translação e redimensionamento
+	- Transformações básicas: rotação, translação, redimensionamento, entre outras.
 
 * 05/02 (assíncrono):
-	* Processamento de imagens
-	* Kernels
-	* Transformações:
-	* Borrar e suavizar
-	* Luz e cor
-	* Histogramas
+	- Processamento de imagens
+	- Kernels
+	- Borrar e suavizar
+	- Iluminação
+	- Espaço de cores
+	- Histogramas [falta]
 	* A ser pesquisado pelos discentes:
 		* Operações morfológicas
 		* Binarização    
