@@ -59,8 +59,8 @@ Semana 04 - Aprendizado profundo para visão computacional
 	- Borrar e suavizar
 	- Iluminação
 	- Espaço de cores
-	- Histogramas [falta]
 	* A ser pesquisado pelos discentes:
+	        * Histogramas
 		* Operações morfológicas
 		* Binarização    
 
