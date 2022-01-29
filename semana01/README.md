@@ -19,7 +19,7 @@ A primeira semana da disciplina é destinada à apresentação dos conceitos ini
     3. Espaço de cores
 
 Todo o conteúdo pode ser acessado nas subpastas da semana 01:
-- a pasta [01](/01): contém o conteúdo visto no momento síncrono.
-- a pasta [02](/02): contém o material para conteúdo assíncrono.
+- a pasta [01](01/): contém o conteúdo visto no momento síncrono.
+- a pasta [02](02/): contém o material para conteúdo assíncrono.
 
-Para as duas pastas, existem duas subpastas contendo os slides e os código com os respectivos dados necessários para execução. Os códigos-fonte estão construídos como notebooks do Google Colab na linguagem Python. Para executar os notebooks, existe um link no início deles que já leva diretamente para o ambiente do Google Colab.
+Dentro de cada uma dessas pastas, quando for o caso, existem duas subpastas contendo os slides e os código com os respectivos dados necessários para execução. Os códigos-fonte estão construídos como notebooks do Google Colab na linguagem Python. Para executar os notebooks, existe um link no início deles que já leva diretamente para o ambiente do Google Colab.
