@@ -34,11 +34,11 @@ Recomenda-se fortemente participar dos encontros síncronos e estudar todo o mat
 
 Semana 01 - Introdução e Processamento Digital de Imagens.
 
-Semana 02 - Recuperação de imagem. Classificação e Agrupamento de Imagens.
+Semana 02 - Aprendizado de Máquina, Classificação de Imagens e Descritores de Imagens.
 
-Semana 03 - Descritores de imagens. Detecção de objetos, facial e reconhecimento facial.
+Semana 03 - Deep Learning, Detecção de objetos, facial e reconhecimento facial.
 
-Semana 04 - Aprendizado profundo para visão computacional
+Semana 04 - Aplicações e Projeto
 
 **Detalhamento**:
 
@@ -67,41 +67,43 @@ Semana 04 - Aprendizado profundo para visão computacional
 ### Semana 02
 
 - 11/02 (síncrono)
+	- Introdução ao Aprendizado de Máquina e categorização de imagens
+		- Pipeline de classificação
+		- Classificação de imagens
+		- Agrupamento de imagens  
 	- Recuperação de Imagens com base em conteúdo
 		- Mecanismo de busca de uma imagem
 		- Bag of visual words
 		- Agrupamento de características
 		- Quantização vetorial
-		- Avaliação
-	- Aprendizado de máquina para categorização de imagens
-		- Pipeline de classificação
-		- Classificação de imagens
-		- Agrupamento de imagens  
+		- Avaliação de modelos
+	
 
-* 12/02 (assíncrono)
-	* Descritores de imagens:
-		* Gradientes e Detecção de bordas
-	* Contornos
-	* Rotulagem de componentes conectados
-	* Introdução ao aprendizado de máquina    
+- 12/02 (assíncrono)
+	- Descritores de imagens:
+		- Gradientes e Detecção de bordas
+	- Contornos
+	- Rotulagem de componentes conectados
 
 ### Semana 03
 
-* 18/02 (assíncrono)
-	* Detecção de objetos
-		* Janelas deslizantes
-		* Preparação de dados
-		* HOG descriptors
-		* Treino
-		* Non-maxima suppression      
+- 18/02 (síncrono)
+        - Deep learning
+        - Deteção de objetos
+        - Reconhecimento facial
 
-* 19/02 (síncrono)
-	* Reconhecimento facial
+- 19/02 (assíncrono)
+        - Detecção de objetos
+                - Janelas deslizantes
+                - Preparação de dados
+                - HOG descriptors
+                - Treino
+                - Non-maxima suppression
 
 ### Semana 04
 
 * 04/03 (assíncrono)
-	* Deep learning
+	
 * 05/03 (síncrono)
 	* Apresentação dos projetos
 
