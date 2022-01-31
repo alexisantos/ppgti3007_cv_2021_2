@@ -1,4 +1,4 @@
-## PPgTI3007 - Visão Computacional
+# PPgTI3007 - Visão Computacional
 Programa de Pós-graduação em Tecnologia da Informação do Instituto Metrópole Digital da Universidade Federal do Rio Grande do Norte
 
 **Semestre 2021.2**
