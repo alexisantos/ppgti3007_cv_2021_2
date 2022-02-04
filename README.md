@@ -88,17 +88,17 @@ Semana 04 - Aplicações e Projeto
 ### Semana 03
 
 - 18/02 (síncrono)
-        - Deep learning
-        - Deteção de objetos
-        - Reconhecimento facial
+	- Deep learning
+	- Deteção de objetos
+	- Reconhecimento facial
 
 - 19/02 (assíncrono)
-        - Detecção de objetos
-                - Janelas deslizantes
-                - Preparação de dados
-                - HOG descriptors
-                - Treino
-                - Non-maxima suppression
+	- Detecção de objetos
+		- Janelas deslizantes
+		- Preparação de dados
+		- HOG descriptors
+		- Treino
+		- Non-maxima suppression
 
 ### Semana 04
 
