@@ -59,10 +59,10 @@ Semana 04 - Aplicações e Projeto
 	- Borrar e suavizar
 	- Iluminação
 	- Espaço de cores
-	* A ser pesquisado pelos discentes:
-	        * Histogramas
-		* Operações morfológicas
-		* Binarização    
+	- A ser pesquisado pelos discentes:
+		- Histogramas
+		- Operações morfológicas
+		- Binarização    
 
 ### Semana 02
 
@@ -70,20 +70,20 @@ Semana 04 - Aplicações e Projeto
 	- Introdução ao Aprendizado de Máquina e categorização de imagens
 		- Pipeline de classificação
 		- Classificação de imagens
-		- Agrupamento de imagens  
-	- Recuperação de Imagens com base em conteúdo
-		- Mecanismo de busca de uma imagem
-		- Bag of visual words
-		- Agrupamento de características
-		- Quantização vetorial
-		- Avaliação de modelos
-	
 
 - 12/02 (assíncrono)
+	- Agrupamento de imagens
 	- Descritores de imagens:
 		- Gradientes e Detecção de bordas
 	- Contornos
 	- Rotulagem de componentes conectados
+	- A ser pesquisados pelos discentes:
+		- Recuperação de Imagens com base em conteúdo
+			- Mecanismo de busca de uma imagem
+			- Bag of visual words
+			- Agrupamento de características
+			- Quantização vetorial
+			- Avaliação de modelos
 
 ### Semana 03
 
