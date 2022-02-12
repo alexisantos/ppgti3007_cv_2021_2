@@ -42,7 +42,7 @@ Semana 04 - Aplicações e Projeto
 
 **Detalhamento**:
 
-### [Semana 01](https://github.com/danielsabino/ppgti3007_cv_2021_2/tree/main/semana01)
+### [Semana 01](semana01/)
 
 * 04/02 (síncrono):
 	- Apresentação da disciplina
@@ -64,7 +64,7 @@ Semana 04 - Aplicações e Projeto
 		- Operações morfológicas
 		- Binarização    
 
-### Semana 02
+### [Semana 02](semana02/)
 
 - 11/02 (síncrono)
 	- Introdução ao Aprendizado de Máquina e categorização de imagens
