@@ -21,6 +21,8 @@ Todo o conteúdo pode ser acessado nas subpastas da semana 02:
 - a pasta [aula03](aula03/): contém o conteúdo visto no momento síncrono.
 - a pasta [aula04](aula04/): contém o material para conteúdo assíncrono.
 
-Dentro de cada uma dessas pastas, quando for o caso, existem duas subpastas contendo os slides e os código com os respectivos dados necessários para execução. Os códigos-fonte estão construídos como notebooks do Google Colab na linguagem Python. Para executar os notebooks, existe um link no início deles que já leva diretamente para o ambiente do Google Colab.
+Dentro de cada uma dessas pastas, quando for o caso, existem duas subpastas contendo os código com os respectivos dados necessários para execução. Os códigos-fonte estão construídos como notebooks do Google Colab na linguagem Python. Para executar os notebooks, existe um link no início deles que já leva diretamente para o ambiente do Google Colab.
+
+Os slides da aula estão em [slides](slides/)
 
 O vídeo do momento síncrono pode ser visualizado [aqui](https://youtu.be/i2AWLssyqoU).
