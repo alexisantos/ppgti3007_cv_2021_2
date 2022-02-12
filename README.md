@@ -74,9 +74,6 @@ Semana 04 - Aplicações e Projeto
 - 12/02 (assíncrono)
 	- Agrupamento de imagens
 	- Descritores de imagens:
-		- Gradientes e Detecção de bordas
-	- Contornos
-	- Rotulagem de componentes conectados
 	- A ser pesquisados pelos discentes:
 		- Recuperação de Imagens com base em conteúdo
 			- Mecanismo de busca de uma imagem
