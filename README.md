@@ -36,9 +36,11 @@ Semana 01 - Introdução e Processamento Digital de Imagens.
 
 Semana 02 - Aprendizado de Máquina, Classificação de Imagens e Descritores de Imagens.
 
-Semana 03 - Deep Learning, Detecção de objetos, facial e reconhecimento facial.
+Semana 03 - Detecção de objetos, facial e reconhecimento facial.
 
-Semana 04 - Aplicações e Projeto
+Semana 04 - Deep Learning e Aplicações
+
+Semana 05 - Projeto
 
 **Detalhamento**:
 
@@ -84,25 +86,38 @@ Semana 04 - Aplicações e Projeto
 
 ### Semana 03
 
-- 18/02 (síncrono)
-	- Deep learning
-	- Deteção de objetos
-	- Reconhecimento facial
-
 - 19/02 (assíncrono)
+	- Reconhecimento facial
 	- Detecção de objetos
 		- Janelas deslizantes
 		- Preparação de dados
-		- HOG descriptors
 		- Treino
 		- Non-maxima suppression
 
 ### Semana 04
 
-* 04/03 (assíncrono)
-	
-* 05/03 (síncrono)
+- 04/05 (síncrono)
+	- Deep learning
+	- Deteção de objetos com Deep Learning
+- 05/05 (assíncrono):
+	- Aplicações de Deep Learning na VC.	
+
+### Semana 05
+
+* 11/05 (síncrono)
 	* Apresentação dos projetos
+
+
+**Progresso**:
+
+- ~04/02 (síncrono)~
+- ~05/02 (assíncrono)~
+- ~11/02 (síncrono)~
+- ~12/02 (assíncrono)~
+- 19/02 (assíncrono)
+- 04/05 (síncrono)
+- 05/05 (assíncrono):
+- 11/05 (síncrono)
 
 ## Obtenção de Notas
 
