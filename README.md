@@ -96,15 +96,15 @@ Semana 05 - Projeto
 
 ### Semana 04
 
-- 04/05 (síncrono)
+- 04/03 (síncrono)
 	- Deep learning
 	- Deteção de objetos com Deep Learning
-- 05/05 (assíncrono):
+- 05/03 (assíncrono):
 	- Aplicações de Deep Learning na VC.	
 
 ### Semana 05
 
-* 11/05 (síncrono)
+* 11/03 (síncrono)
 	* Apresentação dos projetos
 
 
@@ -115,9 +115,9 @@ Semana 05 - Projeto
 - ~11/02 (síncrono)~
 - ~12/02 (assíncrono)~
 - 19/02 (assíncrono)
-- 04/05 (síncrono)
-- 05/05 (assíncrono):
-- 11/05 (síncrono)
+- 04/03 (síncrono)
+- 05/03 (assíncrono):
+- 11/03 (síncrono)
 
 ## Obtenção de Notas
 
