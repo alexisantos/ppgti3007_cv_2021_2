@@ -1,6 +1,8 @@
-# Semana 01
+# Semana 02
 
 A segunda semana da disciplina é destinada à uma revisão geral sobre conceitos relacionados ao Aprendizado de Máquina e aos descritores de imagem. Como em todas as demais semanas, haverá um momento síncrono e um assíncrono.
+
+*Conteúdo da semana*: 
 1. [Síncrono](aula03/):
 	- Introdução ao Aprendizado de Máquina e categorização de imagens
 		- Pipeline de classificação

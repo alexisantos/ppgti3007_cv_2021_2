@@ -1,6 +1,9 @@
 # Semana 01
 
 A primeira semana da disciplina é destinada à apresentação dos conceitos iniciais da Visão Computação e de uma introdução ao Processamento Digital de Imagens (PDI). Como em todas as demais semanas, haverá um momento síncrono e outro assíncrono, cujos conteúdos ficarão dividos da seguinte maneira:
+
+*Conteúdo da semana:*
+
 1. [Síncrono](aula01/):
     1. Conteúdo expositivo:
         1. Apresentação da disciplina

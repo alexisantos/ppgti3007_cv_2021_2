@@ -84,15 +84,15 @@ Semana 05 - Projeto
 			- Quantização vetorial
 			- Avaliação de modelos
 
-### Semana 03
+### [Semana 03](semana03/)
 
-- 19/02 (assíncrono)
-	- Reconhecimento facial
+- 19/02 (assíncrono)	
 	- Detecção de objetos
 		- Janelas deslizantes
 		- Preparação de dados
 		- Treino
 		- Non-maxima suppression
+	- Reconhecimento facial
 
 ### Semana 04
 
@@ -110,11 +110,11 @@ Semana 05 - Projeto
 
 **Progresso**:
 
-- ~04/02 (síncrono)~
-- ~05/02 (assíncrono)~
-- ~11/02 (síncrono)~
-- ~12/02 (assíncrono)~
-- 19/02 (assíncrono)
+- ~~04/02 (síncrono)~~
+- ~~05/02 (assíncrono)~~
+- ~~11/02 (síncrono)~~
+- ~~12/02 (assíncrono)~~
+- ~~19/02 (assíncrono)~~
 - 04/03 (síncrono)
 - 05/03 (assíncrono):
 - 11/03 (síncrono)
@@ -129,3 +129,5 @@ A disciplina contará somente com uma avaliação: um projeto final prático, qu
 Richard Szeliski. Computer Vision: Algorithms and Applications. 2nd Edition. 2021. [http://szeliski.org/Book/](http://szeliski.org/Book/) 
 
 Adrian Rosebrock. PyImageSearch Gurus Course. Disponível em: [https://customers.pyimagesearch.com/](https://customers.pyimagesearch.com/)
+
+Fei-Fei Li. et al. CS231n: Convolutional Neural Networks for Visual Recognition course of Stanford University. 2017. http://cs231n.stanford.edu/2017/
