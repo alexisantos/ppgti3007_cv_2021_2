@@ -1,80 +1,104 @@
-# import the necessary packages
-from __future__ import print_function
-from pyimagesearch.face_recognition import FaceDetector
-from imutils import encodings
-import imutils
 import cv2
+import argparse
+import os
+import base64
+import utils
+import pickle
 
-def detect(fc, image, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30)):
-	# detect faces in the image
+# função auxiliar para detectar faces na imagem
+def detect(fd, image, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30)):
+	# detecta faces na imagem
 	flags = cv2.CASCADE_SCALE_IMAGE
-	rects = fc.detectMultiScale(image, scaleFactor=scaleFactor,
+	bbs = fd.detectMultiScale(image, scaleFactor=scaleFactor,
 		minNeighbors=minNeighbors, minSize=minSize, flags=flags)
 
-	# return the bounding boxes around the faces in the image
-	return rects
+	# retorna os bounding boxes encontrados
+	return bbs
 
-# initialize the face detector, boolean indicating if we are in capturing mode or not, and
-# the bounding box color
-fc = cv2.CascadeClassifier('./cascades/haarcascade_frontalface_default.xml')
-captureMode = False
+# verificação e inicialização de parâmetros
+ap = argparse.ArgumentParser()
+ap.add_argument('-n', '--name', help='nome da pessoa cujas faces vão ser coletadas.')
+args = ap.parse_args()
+if not args.name:
+	args.name = 'person'
+
+# inicializa o detector de faces haar cascade com o modelo pré-treinado
+fd = cv2.CascadeClassifier('./cascades/haarcascade_frontalface_default.xml')
+# flag para indicar se estamos capturando imagens
+capture_mode = False
+# cor do bounding box
 color = (0, 255, 0)
 
-# grab a reference to the webcam and open the output file for writing
+# inicializa a câmera
 camera = cv2.VideoCapture(0)
-f = open('output/faces/daniel.txt', 'a+')
+# abre o arquivo onde vão ficar salvas as imagens no formato base64
+output_path = 'output/faces'
+if not os.path.exists(output_path):
+	os.mkdir('output/')
+	os.mkdir('output/faces/')
 total = 0
+# lista para armzenar as imagens em formato base64
+faces_b64 = []
 
-# loop over the frames of the video
+# loop nos frames do video capturado
 while True:
-	# grab the current frame
+	# obtém o frame atual
 	(grabbed, frame) = camera.read()
 
-	# if the frame could not be grabbed, then we have reached the end of the video
+	# se o frame não pode ser capturado, encerra o loop
 	if not grabbed:
 		break
 
-	# resize the frame, convert the frame to grayscale, and detect faces in the frame
-	frame = imutils.resize(frame, width=500)
+	# obtem informações sobre as dimensões do frame para redimensionar
+	(h,w,c) = frame.shape
+    # largura desejada
+	w_desired = 500
+    # redimensiona o frame
+	frame = cv2.resize(frame,(w_desired,int((h/w)*w_desired)),interpolation = cv2.INTER_AREA)
 	gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-	faceRects = detect(fc,gray, scaleFactor=1.1, minNeighbors=9, minSize=(100, 100))
+	bbs = detect(fd,gray, scaleFactor=1.1, minNeighbors=9, minSize=(30, 30))
 
-	# ensure that at least one face was detected
-	if len(faceRects) > 0:
-		# sort the bounding boxes, keeping only the largest one
-		(x, y, w, h) = max(faceRects, key=lambda b:(b[2] * b[3]))
+	# garante que uma face é detectada, pelo menos
+	if len(bbs) > 0:
+		# ordena os bbs, mantendo somente o maior		
+		(x, y, w, h) = max(bbs, key=lambda b:(b[2] * b[3]))
 
-		# if we are in capture mode, extract the face ROI, encode it, and write it to file
-		if captureMode:
-			face = gray[y:y + h, x:x + w].copy(order="C")
-			f.write("{}\n".format(encodings.base64_encode_image(face)))
+		# se estiver no modo de captura, salva as faces no arquivo
+		if capture_mode:			
+			# extrai a ROI (face)
+			face = gray[y:y + h, x:x + w].copy(order="C")			
+			# adiciona a face a lista de faces no formato base64 
+			faces_b64.append(utils.img2b64(face, '.jpg'))
 			total += 1
 
-		# draw bounding box on the frame
+		# desenha o bb
 		cv2.rectangle(frame, (x, y), (x + w, y + h), color, 2)
 
 	# show the frame and record if the user presses a key
-	cv2.imshow("Frame", frame)
+	cv2.imshow('Frame', frame)
 	key = cv2.waitKey(1) & 0xFF
 
-	# if the `c` key is pressed, then go into capture mode
-	if key == ord("c"):
-		# if we are not already in capture mode, drop into capture mode
-		if not captureMode:
-			captureMode = True
+	
+	# se a tecla 'c' é pressionada, entra no modo captura
+	if key == ord('c'):
+		# se não estiver no modo captura, entra no modo captura		
+		if not capture_mode:
+			capture_mode = True
+			# muda a cor do bb para indicar que está no modo captura
 			color = (0, 0, 255)
-
-		# otherwise, back out of capture mode
+		# se já está, sai do modo captura		
 		else:
-			captureMode = False
+			capture_mode = False
 			color = (0, 255, 0)
 
-	# if the `q` key is pressed, break from the loop
-	elif key == ord("q"):
+	# o loop encerra quando a tecla 'q' é pressionada	
+	elif key == ord('q'):
 		break
 
-# close the output file, cleanup the camera, and close any open windows
-print("[INFO] wrote {} frames to file".format(total))
-f.close()
+
+print(f'[INFO] {total} frames foram salvos')
+with open(f'./output/faces/{args.name}.pickle', 'wb') as f:
+    pickle.dump(faces_b64,f)
+# libera a camera
 camera.release()
 cv2.destroyAllWindows()
