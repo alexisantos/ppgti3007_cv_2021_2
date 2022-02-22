@@ -17,4 +17,4 @@ Um projeto em python com pipeline completo para coletar imagens, treinar um clas
 
 Por não ser um Google Colab, será necessário realizar a execução no seu computador. Sugere-se que um ambiente vitual python seja criado. Um arquivo contendo os pacotes a serem instalados está disponível no diretório.
 
-Os detalhes de funcionamento são dados [aqui](/video/README.md).
+Os detalhes de funcionamento são dados [aqui](./video/README.md).

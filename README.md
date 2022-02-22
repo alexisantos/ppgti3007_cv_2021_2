@@ -92,6 +92,7 @@ Semana 05 - Projeto
 		- Preparação de dados
 		- Treino
 		- Non-maxima suppression
+	- Detecção facial
 	- Reconhecimento facial
 
 ### Semana 04
