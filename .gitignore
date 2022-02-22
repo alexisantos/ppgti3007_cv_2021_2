@@ -2,3 +2,6 @@ transformacoes.ipynb
 gap_semantico.ipynb
 *.pptx
 .DS_Store
+venv*
+__pycache__
+semana03/aula05/face_recognition/video/output
