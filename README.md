@@ -95,7 +95,7 @@ Semana 05 - Projeto
 	- Detecção facial
 	- Reconhecimento facial
 
-### Semana 04
+### [Semana 04](./semana04/)
 
 - 04/03 (síncrono)
 	- Deep learning
@@ -116,8 +116,8 @@ Semana 05 - Projeto
 - ~~11/02 (síncrono)~~
 - ~~12/02 (assíncrono)~~
 - ~~19/02 (assíncrono)~~
-- 04/03 (síncrono)
-- 05/03 (assíncrono):
+- ~~04/03 (síncrono)~~
+- ~~05/03 (assíncrono)~~
 - 11/03 (síncrono)
 
 ## Obtenção de Notas
