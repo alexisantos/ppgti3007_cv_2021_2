@@ -118,7 +118,7 @@ Semana 05 - Projeto
 - ~~19/02 (assíncrono)~~
 - ~~04/03 (síncrono)~~
 - ~~05/03 (assíncrono)~~
-- 11/03 (síncrono)
+- ~~18/03 (síncrono)~~
 
 ## Obtenção de Notas
 
